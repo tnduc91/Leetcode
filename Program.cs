@@ -6,7 +6,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var s = new string[4]{"flower","flow","floight", "a"};
+            Console.WriteLine(LongestCommonPrefixClass.LongestCommonPrefix(s));
         }
     }
 }

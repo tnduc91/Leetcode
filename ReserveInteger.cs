@@ -1,6 +1,6 @@
 using System;
 
-namespace leetcode
+namespace LeetCode
 {
     public class ReverseInteger
     {
