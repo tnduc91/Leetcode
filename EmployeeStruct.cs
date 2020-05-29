@@ -16,7 +16,6 @@ namespace  LeetCode
         public int Id;
         public string Name;
         private string _childrenName;
-
         public static void PrintSomething()
         {
             Console.WriteLine("Here is something");
