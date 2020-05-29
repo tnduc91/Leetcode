@@ -6,8 +6,14 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var s = new string[4]{"flower","flow","floight", "a"};
-            Console.WriteLine(LongestCommonPrefixClass.LongestCommonPrefix(s));
+            EmployeeStruct employee = new EmployeeStruct();
+            
+            employee.EventChildrenNameChanged += StructEventHandler;
+            employee.ChildrenName = "Hello";
+        }
+
+        public static void StructEventHandler(string val){
+            Console.WriteLine("Value changed: " + val);
         }
     }
 }
