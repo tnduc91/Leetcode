@@ -8,24 +8,24 @@ namespace LeetCode
         public ListNode RotateRight(ListNode head, int k)
         {
             if (head == null) return null;
-            if (head.Next == null || k == 0) return head;
+            if (head.next == null || k == 0) return head;
 
             var tail = head;
             var len = 1;
-            while(tail.Next != null){
+            while(tail.next != null){
                 len ++;
-                tail = tail.Next;
+                tail = tail.next;
             }
-            tail.Next = head;
+            tail.next = head;
 
             var headMoveToNewHead = len - (k % len);
             while(headMoveToNewHead > 1){
-                head = head.Next;
+                head = head.next;
                 headMoveToNewHead --;
             }
 
-            var newHead = head.Next;
-            head.Next = null;
+            var newHead = head.next;
+            head.next = null;
 
             return newHead;
 
