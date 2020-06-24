@@ -20,3 +20,5 @@ obj/project.assets.json
 obj/project.nuget.cache
 obj/
 bin/
+.vs/
+.vscode/

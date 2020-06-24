@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{710E5878-2F2E-4274-B09F-745F3DE2620F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OOP/AbstractVsVirtual.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOP/String_string.cs">
     <Files>
-      <File FileName="OOP.cs" Line="21" Column="10" />
-      <File FileName="Program.cs" />
-      <File FileName="OOP/AbstractVsVirtual.cs" Line="1" Column="1" />
+      <File FileName="OOP.cs" Line="3" Column="2" />
+      <File FileName="Program.cs" Line="11" Column="10" />
+      <File FileName="OOP/AbstractVsVirtual.cs" Line="24" Column="35" />
+      <File FileName="OOP/Struct_Class.cs" Line="9" Column="81" />
+      <File FileName="OOP/String_string.cs" Line="2" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +13,7 @@
           <Node name="LeetCode" expanded="True">
             <Node name="LeetCode" expanded="True">
               <Node name="OOP" expanded="True">
-                <Node name="AbstractVsVirtual.cs" selected="True" />
+                <Node name="String_string.cs" selected="True" />
               </Node>
             </Node>
           </Node>
