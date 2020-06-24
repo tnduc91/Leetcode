@@ -9,9 +9,9 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-
         }
 
     }
 
 }
+

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{710E5878-2F2E-4274-B09F-745F3DE2620F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OOP/AbstractVsVirtual.cs">
+    <Files>
+      <File FileName="OOP.cs" Line="21" Column="10" />
+      <File FileName="Program.cs" />
+      <File FileName="OOP/AbstractVsVirtual.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LeetCode" expanded="True">
+            <Node name="LeetCode" expanded="True">
+              <Node name="OOP" expanded="True">
+                <Node name="AbstractVsVirtual.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LeetCode PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
