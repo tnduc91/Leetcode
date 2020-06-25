@@ -1,4 +1,5 @@
-
+.vs/
+.vscode/
 bin/Debug/netcoreapp3.1/LeetCode.deps.json
 bin/Debug/netcoreapp3.1/LeetCode.dll
 bin/Debug/netcoreapp3.1/LeetCode.pdb
@@ -20,5 +21,3 @@ obj/project.assets.json
 obj/project.nuget.cache
 obj/
 bin/
-.vs/
-.vscode/
