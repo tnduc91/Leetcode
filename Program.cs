@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using LeetCode.Models;
 using System.Collections.Specialized;
 using LeetCode.OOP;
+using LeetCode.EventDelegate;
 
 namespace LeetCode
 {
@@ -10,10 +11,23 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-            BaseBC bc = new BaseBC("duc");
-            BaseBC dc = new DeliverBC("duc");
-            Console.WriteLine($"Base - {bc.Name}");
-            Console.WriteLine($"Deliver - {dc.Name}");
+            var video = new Video() { Title = "Video 1" };
+
+            // publisher
+            var videoEncoder = new VideoEncoder();
+
+            // subcribers
+            var mailService = new MailService();
+            var messageService = new MessageService();
+
+            // Subcribe the event
+            videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
+            videoEncoder.VideoEncoded += messageService.OnVideoEncoded; 
+
+
+            videoEncoder.Encode(video);
+
+            Console.ReadLine();
         }
 
     }

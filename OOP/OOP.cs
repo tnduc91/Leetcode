@@ -43,9 +43,9 @@ namespace LeetCode
         }
 
 
-        public override void Method1()
+        public void Method1()
         {
-            Console.WriteLine("ClassB.Method1");
+            Console.WriteLine("ClassC.Method1");
         }
     }
 
