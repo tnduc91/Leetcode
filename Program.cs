@@ -12,7 +12,7 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-            Concurrency.RunSynchoronous();
+            ThreadExample.RunMultipleThreads();
         }
 
     }

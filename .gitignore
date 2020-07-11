@@ -1,4 +1,4 @@
-.vs/
+.vs/LeetCode
 .vscode/
 bin/Debug/netcoreapp3.1/LeetCode.deps.json
 bin/Debug/netcoreapp3.1/LeetCode.dll
