@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{710E5878-2F2E-4274-B09F-745F3DE2620F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="EventDelegate/MailService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConcurrencyParallelism/Concurrency.cs">
     <Files>
-      <File FileName="Program.cs" Line="12" Column="9" />
-      <File FileName="EventDelegate/Video.cs" Line="6" Column="29" />
-      <File FileName="EventDelegate/MailServer.cs" Line="8" Column="78" />
-      <File FileName="EventDelegate/MessageService.cs" Line="12" Column="1" />
-      <File FileName="EventDelegate/VideoEncoder.cs" Line="31" Column="2" />
+      <File FileName="Program.cs" Line="4" Column="36" />
+      <File FileName="ConcurrencyParallelism/Concurrency.cs" Line="40" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LeetCode" expanded="True">
             <Node name="LeetCode" expanded="True">
-              <Node name="EventDelegate" expanded="True">
-                <Node name="MailService.cs" selected="True" />
+              <Node name="ConcurrencyParallelism" expanded="True">
+                <Node name="Concurrency.cs" selected="True" />
               </Node>
-              <Node name="OOP" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,7 +24,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/duc/Documents/Coding/LeetCode/OOP/BaseConstructor.cs" relfile="OOP/BaseConstructor.cs" line="32" column="1" />
-      <Breakpoint file="/Users/duc/Documents/Coding/LeetCode/Program.cs" relfile="Program.cs" line="30" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
